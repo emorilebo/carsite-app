@@ -79,7 +79,7 @@ const LoadingContainer = styled.div`
 
 export function TopCars() {
   const [current, setCurrent] = useState(0);
-  const [isLoading, setLoading] = useState(false);
+  //const [isLoading, setLoading] = useState(false);
 
   const isMobile = useMediaQuery({ maxWidth: SCREENS.sm });
 
